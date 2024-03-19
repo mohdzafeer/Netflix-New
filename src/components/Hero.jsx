@@ -37,10 +37,12 @@ const Hero = () => {
           <img
             className="w-full h-full object-cover object-top"
             src={createImageUrl(backdrop_path,'original')}
+            // src={createImageUrl(backdrop_path,'original')}
             alt={title} 
             />
             <div className="absolute w-full top-[20%] lg:top:[35%] p-4 md:p-8">
               <h1 className="text-3xl md:text-6xl font-nsans-bold">{title}</h1>
+              {/* <h1 className="text-3xl md:text-6xl font-nsans-bold">John wick 3</h1> */}
               <div className="mt-8 mb-4">
                 <button className="capitalize border border-gray-300 py-2 px-6 bg-gray-300 text-black font-nsans-medium">play</button>
                 <button className="capitalize border border-gray-300 py-2 px-2 ml-4 font-nsans-medium">Watch Later</button>

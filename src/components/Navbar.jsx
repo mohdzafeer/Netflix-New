@@ -18,6 +18,9 @@ const Navbar = () => {
     }
 
 
+    
+
+
     return (
         <div className='z-20 absolute w-full p-2 flex items-center justify-between'>
             <Link to={"/"}>
